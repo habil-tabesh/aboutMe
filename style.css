@@ -1,0 +1,63 @@
+
+html{
+    background-color: #adb5bd;
+}
+.my-own-img{
+    border: 15px ;
+    border-radius: 10%;
+    border-color: #22223b;
+    border-style: dotted;
+    margin-bottom: -20px;
+}
+
+img{
+    width:650px ;
+}
+.img-education{
+    margin-bottom: -151;
+    border-color: #020214;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 10px;
+    
+    
+}
+.img-job{
+    border-style: dashed;
+    border-radius: 10px;
+}
+.my-name{
+    font-size: 60px;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 70px;
+}
+.home-button{
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    
+}
+.job-icon{
+    margin-bottom: 10022313px;
+
+}
+h2{
+    background-color: #00171f;
+}
+ul{
+    font-size: larger;
+    list-style-type:square;
+    font-family: 'Palette Mosaic', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.timeline{
+    background-color: #2b2d35;
+    color: aliceblue;
+}
