@@ -27,7 +27,9 @@ html{
     border-color: #22223b;
     border-style: dotted;
     margin-bottom: -20px;
+    margin-left: 20%;
     
+
 
 }
 
@@ -53,6 +55,7 @@ img{
     font-family: 'Passions Conflict', cursive;
     font-family: 'Permanent Marker', cursive;
     margin-left: 70px;
+    text-align: center;
 }
 .home-button{
     width: 70px;
