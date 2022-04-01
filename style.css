@@ -1,6 +1,25 @@
 
 html{
     background-color: #adb5bd;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-height: 800px){
+    .my-own-img{
+        size: 100vh;
+    }
+    .my-name{
+        font-size: smaller;
+    }
+
+}
+@media (max-width: 900){
+    .my-own-img{
+        width: 90vw;
+    }
+    .my-name{
+        font-size: 5vw;
+    }
 }
 .my-own-img{
     border: 15px ;
@@ -8,10 +27,12 @@ html{
     border-color: #22223b;
     border-style: dotted;
     margin-bottom: -20px;
+    
+
 }
 
 img{
-    width:650px ;
+    width:60vw ;
 }
 .img-education{
     margin-bottom: -151;
@@ -61,4 +82,8 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: #2b2d35;
     color: aliceblue;
     font-size: x-large;
+    line-height: 25px;
+}
+div{
+    background-image: url(img/pexels-elīna-arāja-3377405.jpg);
 }
