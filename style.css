@@ -1,8 +1,6 @@
 
 html{
-    background-color: #adb5bd;
-    align-items: center;
-    justify-content: center;
+    
 }
 @media (max-height: 800px){
     .my-own-img{
@@ -23,11 +21,11 @@ html{
 }
 .my-own-img{
     border: 15px ;
-    border-radius: 10%;
+    
     border-color: #22223b;
-    border-style: dotted;
+    border-style: solid ;
     margin-bottom: -20px;
-    margin-left: 20%;
+    margin-left: ;
     
 
 
@@ -37,56 +35,162 @@ img{
     width:60vw ;
 }
 .img-education{
-    margin-bottom: -151;
-    border-color: #020214;
+    margin-top: 25px ;
+    border-color: #81d6f8;
     border-style: groove;
-    border-radius: 10px;
+    
     border-width: 10px;
     
     
 }
+#navbar{
+    position: fixed;
+    top: -15px;
+    left: 0px;
+    
+}
+
+
 .img-job{
-    border-style: dashed;
-    border-radius: 10px;
+    border-style: inset;
+    
+    border-width: 10px;
+    border-color: gray;
+    width: 60vw;
+    height: 40vh;
 }
 .my-name{
     font-size: 60px;
     font-family: 'Palette Mosaic', cursive;
     font-family: 'Passions Conflict', cursive;
     font-family: 'Permanent Marker', cursive;
-    margin-left: 70px;
-    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+   
 }
-.home-button{
-    width: 70px;
-    height: 70px;
-    background-color: aliceblue;
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: -20px;
+
+    
+
+
+.background-image{
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: repeat ;
+}
+.button:hover{
+    animation: 3s;
+    size: 100px;
+    width: 1.1;
+    color: black;
+    background-color: #406579a2;
+    box-shadow: 10px 5px 5px black;
     
 }
-.job-icon{
-    margin-bottom: 10022313px;
 
+.button {
+    background-color: #00171f; /* Green */
+    border: none;
+    color: rgb(142, 169, 170);
+    padding: 1% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 0px;
+    width: 33vw;
+  }
+  .button-edu:hover{
+    animation: 3s;
+    size: 100px;
+    width: 1.1;
+    color: rgb(2, 13, 40);
+    background: rgb(123, 217, 254);
+    box-shadow: 10px 5px 5px rgb(6, 1, 46);}
+  .button-edu {
+    background: rgb(5, 72, 101);
+    border: none;
+    color: rgb(157, 221, 247);
+    padding: 1% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 0px;
+    width: 33vw;
+  }
+  .button-job:hover{
+    animation: 3s;
+    size: 100px;
+    width: 1.5;
+    color: rgb(255, 255, 255);
+    background: rgb(79, 79, 79);
+    box-shadow: 10px 5px 5px rgb(255, 255, 255);}
+
+  .button-job{
+    background: rgb(239, 240, 240);
+    border: none;
+    color: rgb(57, 58, 58);
+    padding: 1% 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 0px;
+    width: 33vw;
+  }
+  #h-job{
+      background-color: rgb(239, 240, 240);
+      width: 100vw;
+    position: fixed;
+    margin-top: -16px;
+  }
+
+  #h-edu{
+    background-color: rgb(5, 72, 101);
+    width: 100vw;
+    position: fixed;
+    margin-top: -10px;
 }
+
 h2{
     background-color: #00171f;
+    width: 100vw;
+    height: ;
 }
 ul{
+   width: 61%;
+   
+
     font-size: larger;
     list-style-type:square;
     font-family: 'Palette Mosaic', cursive;
 font-family: 'Passions Conflict', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Yanone Kaffeesatz', sans-serif;
+background-color: ;
+margin-top: -15px;
 }
 .timeline{
-    background-color: #2b2d35;
-    color: aliceblue;
+    
+    color: rgb(29, 16, 20);
     font-size: x-large;
     line-height: 25px;
+    background: linear-gradient(90deg, rgb(40, 102, 131) 10%, rgba(197, 237, 244, 0.548) 80%);
+    
 }
-div{
-    background-image: url(img/pexels-elīna-arāja-3377405.jpg);
+.ariana{
+    color: #02031b;
+    font-size: x-large;
+    background: linear-gradient(90deg, rgba(47,190,196,1) 0%, rgba(255,255,255,0) 50%);
+}
+
+.star{
+    color: #ffffff;
+    font-size: x-large;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255,255,255,0) 90%);
+}
+p2{
+    margin-left: 19%;
 }
